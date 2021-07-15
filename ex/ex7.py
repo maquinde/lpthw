@@ -1,8 +1,16 @@
+#prints mary had a little lamb
 print("Mary had a little lamb.")
+
+#prints string and injects "snow" with the .format function
 print("It's fleece was white as {}.".format("snow"))
+
+#prints string
 print("And everywhere that Mary went.")
+
+#prints . multiplied by 10
 print("." * 10) #what'd that do? - added 10 periods
 
+#assigns "CheeseBurger" to each variable
 end1 = "C"
 end2 = "h"
 end3 = "e"
