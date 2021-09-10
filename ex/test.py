@@ -1,11 +1,11 @@
 from sys import argv
+#read the WYSS section for how to run this 
+script, first, second, third = argv
 
-#Homework
-one, two, three, four = argv
+print("The script is called:", script)
+print("Your first variable is:", first)
+print("Your second variable is:", second)
+print("Your third variable is:", third)
 
-name = input("Type something...")
-print("This is what you typed:", name)
-print("Your arguments are:", one)
-print("and:", two)
-print(three)
-print(four)
+answer = input("What is your name?")
+print("Your name is:", answer)
