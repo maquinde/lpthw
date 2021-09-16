@@ -2,14 +2,8 @@ from sys import argv
 
 script, filename = argv
 
-txt = open(filename)
+file = open(filename, "w")
 
-print(f"Here's your file {filename}:")
-print(txt.read())
-
-print("Type the filename again:")
-file_again = input("> ")
-
-txt_again = open(file_again)
-
-print(txt_again.read())
+file.read()
+file.write("This is a test")
+file.close()
